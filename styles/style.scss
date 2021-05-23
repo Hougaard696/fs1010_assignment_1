@@ -9,6 +9,7 @@
 }
 
 html {
+  // The technique modifies the base font-size on the html using a percentage. This adjusts things so that 1em equals 10px, instead of the default 16px. To set the font-size to the equivalent of 14px, set it to 1.4em.
   font-size: 62.5%;
   font-family: 'Open Sans', sans-serif;
 }
@@ -16,6 +17,30 @@ html {
 ///Global variables
 $backgroundColor: #d5d5d5;
 
-.container {
+body {
   background-color: $backgroundColor;
+}
+
+.container {
+  max-width: 110rem;
+  margin: 8rem auto;
+}
+
+.flex_container {
+  display: flex;
+}
+
+.img_container {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.img_small {
+  width: 35rem;
+  height: auto;
+}
+
+.img_large {
+  width: 35rem;
+  height: auto;
 }

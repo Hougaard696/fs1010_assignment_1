@@ -11,7 +11,36 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-.container {
+body {
   background-color: #d5d5d5;
+}
+
+.container {
+  max-width: 110rem;
+  margin: 8rem auto;
+}
+
+.flex_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.img_container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.img_small {
+  width: 35rem;
+  height: auto;
+}
+
+.img_large {
+  width: 35rem;
+  height: auto;
 }
 /*# sourceMappingURL=style.css.map */

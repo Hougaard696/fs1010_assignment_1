@@ -1,7 +1,7 @@
 # fs1010_assignment_1
 
 # Instructions
-1. "Open Sans" from Google Fonts - regular and bold
+1. "Open Sans" from Google Fonts - regular and bold -- done
 
 2. approximately 1100px wide wrapper or container (this doesn't absolutely need to be 1100px, maybe you want to work with percentages, a grid, fluid units, etc!) Have fun with it!
 
