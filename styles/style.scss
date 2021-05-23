@@ -1,0 +1,21 @@
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+//Global default settings.
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+///Global variables
+$backgroundColor: #d5d5d5;
+
+.container {
+  background-color: $backgroundColor;
+}
