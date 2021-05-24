@@ -1,0 +1,109 @@
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+//Global default settings.
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  // The technique modifies the base font-size on the html using a percentage. This adjusts things so that 1em equals 10px, instead of the default 16px. To set the font-size to the equivalent of 14px, set it to 1.4em.
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+///Global variables
+$primarygrey: #d5d5d5;
+$secondarygrey: #837e7e;
+
+body {
+  background-color: $primarygrey;
+}
+
+.container {
+  max-width: 110rem;
+  margin: 1rem auto;
+  header {
+    padding: 1rem;
+  }
+}
+
+h1 {
+  padding-bottom: 1.1rem;
+  font-size: 3.5rem;
+  font-weight: normal;
+  b {
+    font-weight: bold;
+  }
+}
+
+h2 {
+  padding-bottom: 1rem;
+  font-size: 2.8rem;
+  color: $secondarygrey;
+  font-weight: normal;
+  b {
+    font-weight: bold;
+  }
+}
+.flex_container {
+  display: flex;
+}
+
+.img_container {
+  flex-wrap: wrap;
+}
+
+img {
+  width: 35rem;
+  height: auto;
+  margin: 1rem;
+}
+
+figure {
+  & figcaption {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    left: 0;
+    font-size: 1.4rem;
+    background: linear-gradient(to top left, rgba(255,255,255, 0.15) 50%, rgba(245, 241, 241, 0.705) 50%);
+  }
+  & .fig_small_1st_row {
+    margin-top: -24.65rem;
+    margin-left: 1rem;
+    width: 35rem;
+    height: 23rem;
+  }
+  & .fig_large_1st_row {
+    margin-top: -53.84rem;
+    margin-left: 1rem;
+    width: 35rem;
+    height: 52.6rem;
+  }
+}
+
+.fig_text {
+  position: relative;
+  max-width: 25rem;
+  top: 3.2rem;
+  left: 2.2rem;
+  h3 {
+    display: block;
+    padding-bottom: 1rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+footer {
+  margin-top: .5rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+  i {
+    padding-right: 1.5rem;
+  }
+}

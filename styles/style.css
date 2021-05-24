@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #d5d5d5;
+}
+
+.container {
+  max-width: 110rem;
+  margin: 1rem auto;
+}
+
+.container header {
+  padding: 1rem;
+}
+
+h1 {
+  padding-bottom: 1.1rem;
+  font-size: 3.5rem;
+  font-weight: normal;
+}
+
+h1 b {
+  font-weight: bold;
+}
+
+h2 {
+  padding-bottom: 1rem;
+  font-size: 2.8rem;
+  color: #837e7e;
+  font-weight: normal;
+}
+
+h2 b {
+  font-weight: bold;
+}
+
+.flex_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.img_container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+img {
+  width: 35rem;
+  height: auto;
+  margin: 1rem;
+}
+
+figure figcaption {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  left: 0;
+  font-size: 1.4rem;
+  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, rgba(255, 255, 255, 0.15)), color-stop(50%, rgba(245, 241, 241, 0.705)));
+  background: linear-gradient(to top left, rgba(255, 255, 255, 0.15) 50%, rgba(245, 241, 241, 0.705) 50%);
+}
+
+figure .fig_small_1st_row {
+  margin-top: -24.65rem;
+  margin-left: 1rem;
+  width: 35rem;
+  height: 23rem;
+}
+
+figure .fig_large_1st_row {
+  margin-top: -53.84rem;
+  margin-left: 1rem;
+  width: 35rem;
+  height: 52.6rem;
+}
+
+.fig_text {
+  position: relative;
+  max-width: 25rem;
+  top: 3.2rem;
+  left: 2.2rem;
+}
+
+.fig_text h3 {
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.fig_text p {
+  font-size: 1.5rem;
+}
+
+footer {
+  margin-top: .5rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+footer i {
+  padding-right: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
