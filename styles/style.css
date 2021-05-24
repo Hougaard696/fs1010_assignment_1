@@ -64,7 +64,7 @@ img {
 
 figure figcaption {
   position: relative;
-  z-index: 3;
+  z-index: 1;
   width: 100%;
   left: 0;
   font-size: 1.4rem;
@@ -110,5 +110,10 @@ footer {
 
 footer i {
   padding-right: 1.5rem;
+}
+
+footer i:hover {
+  font-size: 3rem;
+  color: #397fe7;
 }
 /*# sourceMappingURL=style.css.map */
