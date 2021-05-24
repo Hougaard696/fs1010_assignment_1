@@ -38,9 +38,6 @@ h2 {
 }
 
 .img_container {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -48,6 +45,11 @@ h2 {
 img {
   width: 35rem;
   height: auto;
+  display: block;
+}
+
+figure {
+  white-space: unset;
 }
 
 figure figcaption {
