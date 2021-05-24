@@ -24,7 +24,10 @@ body {
 
 .container {
   max-width: 110rem;
-  margin: 2rem auto;
+  margin: 1rem auto;
+  header {
+    padding: 1rem;
+  }
 }
 
 h1 {
@@ -48,7 +51,7 @@ h2 {
 img {
   width: 35rem;
   height: auto;
-  position: relative;
+  margin: 1rem;
 }
 
 figure {
@@ -61,22 +64,35 @@ figure {
     background: linear-gradient(to top left, rgba(255,255,255, 0.15) 50%, rgba(245, 241, 241, 0.705) 50%);
   }
   & .fig_small_1st_row {
-    margin-top: -23.6rem;
+    margin-top: -24.65rem;
+    margin-left: 1rem;
+    width: 35rem;
     height: 23rem;
   }
   & .fig_large_1st_row {
-    margin-top: -52.9rem;
-    height: 52.7rem;
+    margin-top: -53.84rem;
+    margin-left: 1rem;
+    width: 35rem;
+    height: 52.6rem;
   }
 }
 
-// .fig_text {
-//   position: relative;
-//   max-width: 25rem;
-//   top: 3.2rem;
-//   left: 2.2rem;
-//   h3 {
-//     display: inline-block;
-//     padding-bottom: 1rem;
-//   }
-// }
+.fig_text {
+  position: relative;
+  max-width: 25rem;
+  top: 3.2rem;
+  left: 2.2rem;
+  h3 {
+    display: block;
+    padding-bottom: 1rem;
+  }
+}
+
+footer {
+  margin-top: .5rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+  i {
+    padding-right: 1.5rem;
+  }
+}
