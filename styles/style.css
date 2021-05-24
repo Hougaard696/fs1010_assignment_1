@@ -108,6 +108,11 @@ footer {
   padding: 1rem;
 }
 
+footer a, footer a:active, footer a:focus a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 footer i {
   padding-right: 1.5rem;
 }
