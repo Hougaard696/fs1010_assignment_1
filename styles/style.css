@@ -58,11 +58,13 @@ figure figcaption {
   background: linear-gradient(to top left, rgba(255, 255, 255, 0.15) 50%, rgba(245, 241, 241, 0.705) 50%);
 }
 
-figure .fig_small {
-  top: -23.6rem;
+figure .fig_small_1st_row {
+  margin-top: -23.6rem;
+  height: 23rem;
 }
 
-figure .fig_large {
-  top: -52.9rem;
+figure .fig_large_1st_row {
+  margin-top: -52.9rem;
+  height: 52.7rem;
 }
 /*# sourceMappingURL=style.css.map */
