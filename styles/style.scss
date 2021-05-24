@@ -66,11 +66,14 @@ img {
 figure {
   & figcaption {
     position: relative;
+    opacity: 0;
     z-index: 1;
     width: 100%;
     left: 0;
     font-size: 1.4rem;
     background: linear-gradient(to top left, rgba(255,255,255, 0.15) 50%, rgba(245, 241, 241, 0.705) 50%);
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
   }
   & .fig_small_1st_row {
     margin-top: -24.65rem;
@@ -84,6 +87,10 @@ figure {
     width: 35rem;
     height: 52.6rem;
   }
+}
+
+figure:hover figcaption {
+  opacity: 1;
 }
 
 .fig_text {
@@ -102,17 +109,19 @@ figure {
 
 footer {
   margin-top: .5rem;
-  font-size: 2.5rem;
   padding: 1rem;
   a, a:active, a:focus a:visited {
     text-decoration: none;
     color: black;
   }
   i {
+    font-size: 2.5rem;
     padding-right: 1.5rem;
   }
   i:hover {
     font-size: 3rem;
     color: $blue;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
   }
 }
