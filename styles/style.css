@@ -17,7 +17,18 @@ body {
 
 .container {
   max-width: 110rem;
-  margin: 8rem auto;
+  margin: 2rem auto;
+}
+
+h1 {
+  padding-bottom: 1.5rem;
+  font-size: 3.5rem;
+}
+
+h2 {
+  padding-bottom: 1.3rem;
+  font-size: 2.5rem;
+  color: #837e7e;
 }
 
 .flex_container {
@@ -43,17 +54,30 @@ figure figcaption {
   position: relative;
   width: 100%;
   left: 0;
+  font-size: 1.4rem;
   background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, rgba(255, 255, 255, 0.15)), color-stop(50%, rgba(245, 241, 241, 0.705)));
   background: linear-gradient(to top left, rgba(255, 255, 255, 0.15) 50%, rgba(245, 241, 241, 0.705) 50%);
 }
 
 figure .fig_small {
-  top: -83%;
-  height: 82.5%;
+  top: -75.5%;
+  height: 74.2%;
 }
 
 figure .fig_large {
   top: -91.6%;
-  height: 82.5%;
+  height: 91.6%;
+}
+
+.fig_text {
+  position: relative;
+  max-width: 25rem;
+  top: 3.2rem;
+  left: 2.2rem;
+}
+
+.fig_text h3 {
+  display: inline-block;
+  padding-bottom: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
