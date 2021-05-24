@@ -25,14 +25,24 @@ body {
 }
 
 h1 {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.1rem;
   font-size: 3.5rem;
+  font-weight: normal;
+}
+
+h1 b {
+  font-weight: bold;
 }
 
 h2 {
-  padding-bottom: 1.3rem;
-  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  font-size: 2.8rem;
   color: #837e7e;
+  font-weight: normal;
+}
+
+h2 b {
+  font-weight: bold;
 }
 
 .flex_container {
@@ -86,6 +96,10 @@ figure .fig_large_1st_row {
 .fig_text h3 {
   display: block;
   padding-bottom: 1rem;
+}
+
+.fig_text p {
+  font-size: 1.5rem;
 }
 
 footer {

@@ -31,14 +31,22 @@ body {
 }
 
 h1 {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.1rem;
   font-size: 3.5rem;
+  font-weight: normal;
+  b {
+    font-weight: bold;
+  }
 }
 
 h2 {
-  padding-bottom: 1.3rem;
-  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  font-size: 2.8rem;
   color: $secondarygrey;
+  font-weight: normal;
+  b {
+    font-weight: bold;
+  }
 }
 .flex_container {
   display: flex;
@@ -85,6 +93,9 @@ figure {
   h3 {
     display: block;
     padding-bottom: 1rem;
+  }
+  p {
+    font-size: 1.5rem;
   }
 }
 
