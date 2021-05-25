@@ -9,7 +9,6 @@
 }
 
 html {
-  // The technique modifies the base font-size on the html using a percentage. This adjusts things so that 1em equals 10px, instead of the default 16px. To set the font-size to the equivalent of 14px, set it to 1.4em.
   font-size: 62.5%;
   font-family: 'Open Sans', sans-serif;
 }
@@ -26,7 +25,7 @@ body {
 .container {
   max-width: 110rem;
   margin: 1rem auto;
-  header {
+  & header {
     padding: 1rem;
   }
 }
@@ -35,7 +34,7 @@ h1 {
   padding-bottom: 1.1rem;
   font-size: 3.5rem;
   font-weight: normal;
-  b {
+  & b {
     font-weight: bold;
   }
 }
@@ -45,7 +44,7 @@ h2 {
   font-size: 2.8rem;
   color: $secondarygrey;
   font-weight: normal;
-  b {
+  & b {
     font-weight: bold;
   }
 }
@@ -98,11 +97,11 @@ figure:hover figcaption {
   max-width: 25rem;
   top: 3.2rem;
   left: 2.2rem;
-  h3 {
+  & h3 {
     display: block;
     padding-bottom: 1rem;
   }
-  p {
+  & p {
     font-size: 1.5rem;
   }
 }
@@ -110,15 +109,15 @@ figure:hover figcaption {
 footer {
   margin-top: .5rem;
   padding: 1rem;
-  a, a:active, a:focus a:visited {
+  & a, a:active, a:focus a:visited {
     text-decoration: none;
     color: black;
   }
-  i {
+  & i {
     font-size: 2.5rem;
     padding-right: 1.5rem;
   }
-  i:hover {
+  & i:hover {
     font-size: 3rem;
     color: $blue;
     transition-duration: .3s;
